@@ -1,0 +1,205 @@
+/proc/touchpanel/debug_info/main_register
+touch_count:0
+TP FW Ver:0x32
+Vendor ID:0xda
+Gesture Mode:0x00
+Control state:0x00
+FOD Mode:0x00
+INT count:0x50
+MC Point Threshold:0x32
+ESD count:0x00
+PANEL ID:0x00
+kernel_grip_info:
+grip_disable_level:6
+skip area:0, 0, 0.
+filter count: 4
+large V2 parameter:
+large_corner_exit_distance: 800
+large_corner_detect_time_ms: 500
+large_corner_debounce_ms: 300
+large_corner_width: 960
+large_corner_height: 2400
+xfsr_corner_exit_thd: 6
+yfsr_corner_exit_thd: 6
+exit_match_thd: 2
+trx_reject_thd: 8
+rx_reject_thd: 7
+tx_reject_thd: 7
+fsr_stable_time_thd: 30
+single_channel_x_len: 256
+single_channel_y_len: 256
+normal_tap_min_time_ms: 10
+normal_tap_max_time_ms: 300
+long_start_coupling_thd: 230
+long_stable_coupling_thd: 100
+long_detect_time_ms: 500
+long_hold_changed_thd: 180
+long_hold_maxfsr_gap: 80
+long_hold_divided_factor: 6
+long_hold_debounce_time_ms: 50
+xfsr_normal_exit_thd: 15
+yfsr_normal_exit_thd: 12
+xfsr_hold_exit_thd: 4
+yfsr_hold_exit_thd: 4
+large_reject_debounce_time_ms: 50
+report_updelay_ms: 30
+short_start_coupling_thd: 230
+short_stable_coupling_thd: 100
+short_hold_changed_thd: 180
+short_hold_maxfsr_gap: 120
+large_top_width: 400
+large_top_height: 1200
+large_top_exit_distance: 384
+edge_swipe_narrow_witdh: 240
+edge_swipe_exit_distance: 800
+long_strict_start_coupling_thd: 170
+long_strict_stable_coupling_thd: 80
+trx_strict_reject_thd: 7
+rx_strict_reject_thd: 6
+tx_strict_reject_thd: 6
+short_strict_start_coupling_thd: 160
+short_strict_stable_coupling_thd: 60
+xfsr_strict_exit_thd: 5
+yfsr_strict_exit_thd: 5
+corner_move_rejected: 0
+grip_disable_level: 6
+long_hold_x_width: 560
+long_hold_y_width: 1600
+finger_hold_matched_hor_support: 0
+top_matched_times_thd: 3
+top_matched_xfsr_thd: 80
+large_ver_top_exit_distance: 420
+large_hor_long_top_width: 240
+large_hor_long_top_height: 1600
+large_top_middle_width: 8640
+large_top_middle_height: 800
+large_top_middle_exit_distance: 800
+large_bottom_middle_support: 0
+corner_eliminate_point_type: 0
+large_corner_hor_x_width: 960
+large_corner_hor_y_height: 1600
+
+
+/proc/touchpanel/debug_info/self_delta
+self data delta 
+
+    -1    -4     1    -3    -4    -4     1    -1     0    -5     1     1    -1     1    -1    -3    -6
+     1    -5     3    -4    10     2     0     1    -1    -5     0    -4    -6    -3    -8    -2    -3
+    -7    -3    -3     0    -3    -9     0    -4     0    -2    -3    -1     1    -5     0     0     3
+     4
+self data delta waterproof
+
+    -1    -5    -1    -4    -5    -5     0    -4    -1    -6     1     1    -2     1    -1    -2    -3
+     2    -9     1    -4     8     4    -1     2     1    -5     3    -4    -7    -3    -7    -2    -6
+    -6    -5    -2    -1    -2   -11     3    -2     2    -4    -2    -1     1    -4     0    -2     0
+     2
+
+/proc/touchpanel/debug_info/delta
+
+[ 1]    -3,    -5,     1,    -2,    -4,    -7,    -3,    -7,    -1,    -6,    -1,     1,    -1,     1,     1,    -1,    -5,     0,    -8,     2,     0,     6,     3,    -1,    -1,     0,    -6,    -1,    -2,    -8,    -5,    -9,    -5,    -5,    -8,    -8,
+[ 2]    -3,    -5,    -4,   -12,     3,    -1,     3,    -3,    -5,    -3,    -1,    -5,    -2,    -1,    -1,     1,     0,     4,    -4,    -1,     3,     2,     2,     0,     0,    -3,     1,    -2,    -5,     2,    -4,    -6,    -6,    -6,    -5,   -14,
+[ 3]    -5,    -3,    -1,     0,    -1,     2,     0,     3,    -3,    -3,    -3,    -4,     4,    -1,    -3,    -3,    -9,    -4,    -3,    -3,    -2,     0,     1,     1,    -4,     2,    -4,     0,    -5,    -2,    -1,    -2,     2,    -2,    -4,     1,
+[ 4]    -1,    -3,    -2,     1,     1,    -4,    -7,    -1,     3,    -4,     0,     0,    -1,     1,    -4,    -2,    -4,    -4,    -1,     0,    -7,     0,    -6,     4,     0,    -1,     0,    -2,     1,    -1,    -5,    -1,    -5,    -2,     0,    -1,
+[ 5]    -2,    -3,    -3,    -4,    -4,    -3,    -4,    -8,   -10,     0,     1,     1,     5,     3,     0,    -4,    -3,     2,    -3,    -3,    -4,    -2,    -2,     2,     3,     0,     1,     1,     1,    -5,   -10,    -4,    -4,    -8,    -3,    -2,
+[ 6]   -10,    -7,     6,    -5,    -4,    -2,     2,     2,    -1,    -5,     4,     1,    -6,    -1,    -2,    -4,     0,    -9,    -6,    -4,    -4,     3,     0,    -1,    -4,    -6,    -3,    -3,    -3,    -2,    -1,     3,     0,    -6,    -6,     1,
+[ 7]    -2,    -1,    -9,    -4,    -4,    -1,     1,    -2,    -2,     1,    -1,    -2,    -1,     0,    -4,    -1,     3,     0,    -3,    -3,    -1,    -3,     2,    -4,     0,    -1,    -2,    -3,    -4,    -4,    -2,     0,     0,     0,     0,     1,
+[ 8]    -1,    -1,    -3,    -5,     2,     0,    -9,     1,    -6,    -8,     0,    -4,    -5,     0,     1,    -1,    -1,    -1,    -2,    -5,    -3,     2,    -2,    -2,    -3,     0,    -7,    -5,     2,    -6,    -3,    -6,    -4,    -6,     2,     2,
+[ 9]    -6,     1,    -6,    -3,    -4,     2,     5,     0,     0,    -1,     0,    -2,     0,    -5,     1,     0,     2,    -5,    -2,    -6,    -3,     0,    -4,     0,    -2,     0,    -5,    -1,     5,     1,    -5,     0,     2,     2,    -3,     0,
+[10]    -3,    -3,    -3,     4,    -1,    -3,     3,    -4,    -3,    -4,     0,     1,    -5,     2,     3,    -1,    -1,    -4,    -4,    -2,    -7,     0,    -3,    -3,    -3,    -2,     0,    -2,     4,    -2,     0,     3,    -5,     0,    -5,    -1,
+[11]    -5,    -3,    -8,    -1,    -2,    -9,     3,     0,    -1,    -2,    -1,     2,    -2,    -3,     2,    -2,     0,    -4,    -5,    -4,    -5,    -2,    -6,    -6,    -5,    -4,    -4,     0,     1,     2,     1,    -1,    -3,     4,    -4,     4,
+[12]    -5,    -5,    -2,     3,    -1,    -1,    -5,    -9,    -1,     0,    -1,     2,     2,    -3,     0,    -5,     0,    -6,    -3,     3,    -1,    -2,    -4,    -6,    -6,     2,     0,    -1,    -3,    -1,    -4,    -1,    -1,    -5,    -3,    -4,
+[13]     5,    -1,    -6,    -4,    -4,    -3,    -4,     1,     1,     0,    -2,     0,    -3,     1,    -6,    -2,    -1,    -3,     0,     1,    -3,    -8,    -5,    -6,    -4,    -8,    -7,     1,     2,     1,     1,     4,    -1,     6,     0,     2,
+[14]     1,    -5,     2,     2,     3,    -1,    -2,    -2,    -1,    -4,    -1,     3,    -2,    -1,    -2,    -8,     1,    -6,    -1,     3,     0,    -1,    -4,    -5,     0,    -1,    -2,    -1,     0,    -3,    -2,    -2,     0,    -2,     0,    -4,
+[15]     2,    -3,    -6,    -2,    -7,    -3,    -3,    -4,    -1,    -4,     4,     2,     1,    -7,     0,     2,     4,     0,     0,     7,     7,    -2,    -1,    -3,     3,    -1,     0,    -5,    -3,    -5,    -9,    -9,    -2,    -1,     0,    -3,
+[16]     3,    -2,     1,    -2,     4,     2,     1,   -10,    -5,    -1,    -4,    -8,     0,    -3,    -4,    -4,     0,    -2,    -1,     3,    10,     0,    -3,    -4,    -1,    -3,    -4,    -7,    -2,    -3,    -7,    -4,    -2,    -6,     1,    -1,
+
+/proc/touchpanel/debug_info/self_raw
+Not support self_raw proc node
+
+/proc/touchpanel/debug_info/data_limit
+item[0]:
+
+parameter:1, 
+
+item[1]:
+
+parameter:1, 
+
+item[2]:
+
+parameter:1, 
+
+item[3]:
+
+parameter:1, 
+
+item[4]:
+
+parameter:1, 
+
+item[5]:
+
+parameter:1, 
+
+item[6]:
+
+parameter:1, 
+
+item[7]:
+
+parameter:1, 
+
+
+/proc/touchpanel/debug_info/reserve
+Not support main_register proc node
+
+/proc/touchpanel/debug_info/health_info
+tp_ic:FT3681+BOE
+boot_time:123296s
+probe_time:0ms
+max_resume_time:275ms
+max_suspend_time:160ms
+rate_min:360
+below_rate_counts:0
+total_screen_on_time:85623s
+total_touch_time:7264s
+max_holding_touch_time:93s
+max_touch_number:4
+panel_coords:8640*19296
+tx_rx_num:16*36
+click_count:14664
+swipe_count:13069
+fw_version:0xAA3080032
+max_fw_update_time:13ms
+alloced_size:92
+health_report-shield_palm:10
+health_report-shield_water:26
+health_report-baseline_err:84
+total_grip_time_no_touch:9033s
+total_grip_time_no_touch_one_sec:8835s
+total_grip_time_no_touch_two_sec:8769s
+total_grip_time_no_touch_three_sec:8739s
+total_grip_time_no_touch_five_sec:8673s
+max_point-jumping_times:7
+jumping-point:[ 0]   0,    0,    0,    0,    0,    0,    0,    0, [ 1]   0,    0,    0,    0,    0,    0,    0,    0, [ 2]   0,    0,    0,    0,    0,    0,    0,    0, [ 3]   0,    0,    0,    0,    0,    0,    0,    0, [ 4]   0,    0,    1,    0,    0,    0,    0,    0, [ 5]   0,    0,    0,    0,    0,    0,    0,    0, [ 6]   0,    0,    0,    0,    0,    0,    0,    0, [ 7]   0,    0,    0,    0,    0,    0,    0,    0, [ 8]   0,    0,    0,    0,    0,    0,    0,    0, [ 9]   0,    0,    0,    0,    0,    0,    0,    0, [10]   0,    0,    0,    0,    0,    0,    0,    0, [11]   0,    0,    0,    0,    0,    0,    0,    0, [12]   0,    0,    0,    0,    0,    0,    0,    0, [13]   0,    0,    0,    0,    0,    0,    0,    0, [14]   0,    0,    0,    0,    0,    0,    0,    0, [15]   0,    0,    0,    0,    0,    0,    0,    0, [16]   0,    0,    0,    0,    0,    0,    0,    0, [17]   0,    0,    0,    0,    0,    0,    0,    0, 
+stuck-point:[ 0]   0,    0,    0,    0,    0,    0,    0,    0, [ 1]   0,    0,    0,    0,    0,    0,    0,    0, [ 2]   0,    0,    0,    0,    0,    1,    0,    0, [ 3]   0,    0,    0,    0,    0,    0,    0,    0, [ 4]   0,    0,    0,    0,    0,    0,    0,    0, [ 5]   0,    0,    0,    0,    0,    0,    0,    0, [ 6]   0,    0,    0,    0,    0,    0,    0,    0, [ 7]   0,    0,    0,    0,    0,    0,    0,    0, [ 8]   0,    0,    0,    0,    0,    0,    0,    0, [ 9]   0,    0,    0,    0,    0,    0,    0,    0, [10]   1,    0,    0,    0,    0,    0,    0,    0, [11]   0,    0,    0,    0,    0,    0,    0,    0, [12]   0,    0,    0,    0,    0,    0,    0,    0, [13]   0,    0,    0,    0,    0,    0,    0,    0, [14]   0,    0,    0,    0,    0,    0,    0,    0, [15]   0,    0,    0,    0,    0,    0,    0,    0, [16]   0,    0,    0,    0,    0,    0,    0,    0, [17]   0,    0,    0,    0,    0,    0,    0,    0, 
+lanscape_stuck-point:[ 0]   0,    0,    0,    0,    0,    0,    0,    0, [ 1]   0,    0,    0,    0,    0,    1,    0,    0, [ 2]   0,    0,    0,    0,    0,    0,    0,    0, [ 3]   0,    0,    0,    0,    0,    0,    0,    0, [ 4]   0,    0,    0,    0,    0,    0,    0,    0, [ 5]   0,    0,    0,    0,    0,    0,    0,    0, [ 6]   0,    0,    0,    0,    0,    0,    0,    0, [ 7]   0,    0,    0,    0,    0,    0,    0,    0, [ 8]   0,    0,    0,    0,    0,    0,    0,    0, [ 9]   0,    0,    0,    0,    0,    0,    0,    0, [10]   0,    0,    0,    0,    0,    0,    0,    0, [11]   0,    0,    0,    0,    0,    0,    0,    0, [12]   0,    0,    0,    0,    0,    0,    0,    0, [13]   0,    0,    0,    0,    0,    0,    0,    0, [14]   0,    0,    0,    0,    0,    0,    0,    0, [15]   0,    0,    0,    0,    0,    0,    0,    0, [16]   0,    0,    0,    0,    0,    0,    0,    0, [17]   0,    0,    0,    0,    0,    0,    0,    0, 
+broken-swipe:[ 0]   0,    0,    0,    0,    0,    0,    0,    0, [ 1]   0,    0,    0,    0,    0,    0,    0,    0, [ 2]   0,    0,    0,    0,    0,    0,    0,    0, [ 3]   2,    5,    0,    0,    0,    0,    0,    0, [ 4]   0,    0,    0,    0,    0,    0,    0,    0, [ 5]   0,    0,    0,    0,    0,    0,    0,    0, [ 6]   0,    0,    0,    0,    0,    0,    0,    1, [ 7]   0,    0,    0,    0,    0,    0,    0,    0, [ 8]   0,    0,    0,    0,    0,    0,    0,    0, [ 9]   0,    0,    0,    0,    0,    0,    0,    0, [10]   0,    0,    0,    0,    0,    0,    0,    0, [11]   0,    0,    0,    0,    0,    0,    0,    0, [12]   0,    0,    0,    0,    0,    0,    0,    0, [13]   0,    0,    0,    0,    0,    0,    0,    0, [14]   0,    0,    0,    0,    0,    0,    0,    0, [15]   0,    0,    0,    0,    0,    0,    0,    0, [16]   0,    0,    0,    0,    0,    0,    0,    0, [17]   0,    0,    0,    0,    0,    0,    0,    0, 
+suddent_long-swipes count:5
+suddent_long-swipe[0]:[3398 15280] to [7252 16722]
+suddent_long-swipe[1]:[7256 16708] to [3470 15298]
+suddent_long-swipe[2]:[8231 19111] to [5908 17140]
+suddent_long-swipe[3]:[6836 3382] to [3326 4863]
+suddent_long-swipe[4]:[5608 210] to [6645 5598]
+Gesture-unknown:24
+Gesture-(fingerprintup):2
+Gesture-double_tap:30
+Invalid_Gesture-(fingerprintdown):23
+Invalid_Gesture-unknown:228
+Invalid_Gesture-(fingerprintup):3
+Invalid_Gesture-double_tap:4
+fp_area_rate-5:109
+fp_area_rate-6:22
+fp_area_rate-7:5
+--last_exception--
+
